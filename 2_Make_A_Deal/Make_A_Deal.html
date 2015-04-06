@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html>
+ <head>
+  <title>Make a deal</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <div id="wrap">
+ <body>
+	<h1 class="head">Hello, pick a door, any door.</h1>
+	<p class="head" id="caption">There are three doors.  Behind two doors are <b>BAD</b> things.
+	<br/> Behind one door is an <b>AWESOME</b> thing.
+	</p>
+	<hr>
+	<div id="doorsContainer">
+		<div class="door">
+		<a href="#" id="bluedoor" text="closed" onclick=doorClick(this.id);><img src="images\blue_door.png"/></a>
+		</div>
+		<div class="door">
+		<a href="#" id="orangedoor" text="closed" onclick=doorClick(this.id);><img src="images\orange_door.png"/></a>
+		</div>
+		<div class="door">
+		<a href="#" id="greendoor" text="closed" onclick=doorClick(this.id);><img src="images\green_door.png"/></a>
+		</div>
+	</div>
+ </body>
+ </div>
+
+<script src="script.js"></script>
+</html>

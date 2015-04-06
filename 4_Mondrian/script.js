@@ -1,0 +1,1 @@
+//document.querySelector("[id^=box]").setAttribute('background-color','red');

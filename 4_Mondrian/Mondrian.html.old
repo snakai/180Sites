@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+	<title>Mondrian</title>
+	<link rel="stylesheet" href="style.css"/>
+ </head>
+ <body>
+	<div id='wrap'>
+			<h2 id="caption">Pick a color and paint the canvas!</h2>
+
+		<div id='maincontainer'>
+			<div id="container">
+				<div id='sidebar'>
+					Sidebar
+				</div>
+				<div class='panel'>
+					<div class='row1'>
+					<div class='innersquare' id='box1'></div>
+					<div class='innersquare' id='box2'></div>
+					<div class='innersquare' id='box3'></div>
+					<div class='innersquare' id='box4'></div>
+					</div>
+					<div class='row2'>
+					<div class='innersquare' id='box5'></div>
+					<div class='innersquare' id='box6'></div>
+					<div class='innersquare' id='box7'></div>
+					<div class='innersquare' id='box8'></div>
+					</div>
+					<div class='row3'>
+					<div class='innersquare' id='box9'></div>
+					<div class='innersquare' id='box10'></div>
+					<div class='innersquare' id='box11'></div>
+					<div class='innersquare' id='box12'></div>
+					</div>
+					<div class='row4'>
+					<div class='innersquare' id='box13'></div>
+					<div class='innersquare' id='box14'></div>
+					<div class='innersquare' id='box15'></div>
+					<div class='innersquare' id='box16'></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+ </body>
+ 
+ <script src="script.js"></script>
+
+</html>

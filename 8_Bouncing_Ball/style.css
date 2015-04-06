@@ -1,0 +1,38 @@
+html {
+
+}
+
+#wrap {
+	height: 100%;
+	margin: 0 auto;
+	overflow: scroll;
+	width: 800px;
+}
+
+#container {
+	width: 300px;
+	float: left;
+}
+
+#ball {
+  background: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+#ballarea {
+	border: 1px solid;
+	float: right;
+	width: 500px;
+}
+
+#side {
+	float: left;
+	font-family: Arial;
+	font-size: 24px;
+	width: 200px;
+	margin-left: 100px;
+	vertical-align: middle;
+	margin-top: auto;
+}

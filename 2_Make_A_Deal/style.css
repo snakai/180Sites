@@ -1,0 +1,21 @@
+html * {
+	background-color: gray
+}
+
+#wrap {
+	text-align: center
+}
+
+.head {
+	color: white
+}
+
+.door {
+	display: inline;
+	margin: 50px;
+	text: 'closed';
+}
+
+#doorsContainer {
+	display: inline
+}
