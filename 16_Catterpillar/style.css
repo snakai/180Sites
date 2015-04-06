@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+}
+
+#wrap {
+	
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+
+body {
+
+	overflow: hidden;
+
+}
+
+#container {
+	
+}
+
+.ball {
+  background: black;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  
+  
+     -webkit-animation: pulse 2s infinite;
+     -moz-animation: none;
+     -o-animation: pulse 2s infinite;
+     -ms-animation: pulse 2s infinite;
+     animation: none;
+}
+
+
+#follower {
+	display: none;
+}
+
+@-webkit-keyframes pulse {
+     0%, 100% {-webkit-transform: scale(1);}
+     25%, 75% {-webkit-transform: scale(1.08);}
+     50% {-webkit-transform: scale(0.92);}
+}
+@-moz-keyframes pulse {
+     ;
+}
+@-o-keyframes pulse {
+     0%, 100% {-o-transform: scale(1);}
+     25%, 75% {-o-transform: scale(1.08);}
+     50% {-o-transform: scale(0.92);}
+}
+@-ms-keyframes pulse {
+     0%, 100% {-ms-transform: scale(1);}
+     25%, 75% {-ms-transform: scale(1.08);}
+     50% {-ms-transform: scale(0.92);}
+}
+@keyframes pulse {
+     ;
+}
